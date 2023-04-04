@@ -12,7 +12,7 @@ function ProductDetails() {
           <div class="flex slider">
             <div>
               <div class="flex flex-wrap thumbnail w-24 h-10">
-                <div class="px-2 m-1 border-2 border-solid border-black">
+                <div class="px-2 m-1 border-2 border-solid border-gray-600 rounded-md">
                   <div
                     class="item selected h-28  "
                     data-img="/images/content/showcase-1.front.jpg"
@@ -24,7 +24,7 @@ function ProductDetails() {
                     />
                   </div>
                 </div>
-                <div class="px-2 m-1 border-2 border-solid border-black">
+                <div class="px-2 m-1 border-2 border-solid border-gray-600 rounded-md">
                   <div
                     class="item"
                     data-img="/images/content/showcase-1.back.jpg"
@@ -36,7 +36,7 @@ function ProductDetails() {
                     />
                   </div>
                 </div>
-                <div class="px-2 m-1 border-2 border-solid border-black">
+                <div class="px-2 m-1 border-2 border-solid border-gray-600 rounded-md">
                   <div
                     class="item"
                     data-img="/images/content/showcase-1.rear.jpg"
@@ -48,7 +48,7 @@ function ProductDetails() {
                     />
                   </div>
                 </div>
-                <div class="px-2 m-1 border-2 border-solid border-black">
+                <div class="px-2 m-1 border-2 border-solid border-gray-600 rounded-md">
                   <div
                     class="item"
                     data-img="/images/content/showcase-1.side.jpg"
@@ -60,7 +60,7 @@ function ProductDetails() {
                     />
                   </div>
                 </div>
-                <div class="px-2 m-1  border-2 border-solid border-black">
+                <div class="px-2 m-1  border-2 border-solid border-gray-600 rounded-md">
                   <div
                     class="item"
                     data-img="/images/content/showcase-1.top.jpg"

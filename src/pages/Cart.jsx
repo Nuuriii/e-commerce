@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
 import Breadcrumb from '../smartcomponent/Breadcrumb/Index';
-import ProduckDetails from '../components/Details/ProductDetails';
-import Suggestion from '../components/Details/Suggestion';
+import ShoppingCart from '../components/Cart/ShoppingCart';
+import ShippingDetails from '../components/Cart/ShippingDetails';
 // import BrowseRoom from '../components/Homepage/BrowseRoom';
 // import Clients from '../components/Clients';
 import Sitemap from '../components/Sitemap';
@@ -15,14 +15,18 @@ function Homepage() {
       <Breadcrumb
         list={[
           { url: '/', name: 'Home' },
-          { url: '/categories/91231', name: 'Office Room' },
-          { url: '/categories/91231/products/7888', name: 'Details' },
+          { url: '/cart', name: 'Shopping Cart' },
         ]}
       />
 
-      {/* <Clients /> */}
-      <ProduckDetails />
-      <Suggestion />
+      <section class="md:py-16">
+        <div class="container mx-auto px-4">
+          <div class="flex -mx-4 flex-wrap">
+            <ShoppingCart />
+            <ShippingDetails />
+          </div>
+        </div>
+      </section>
       <Sitemap />
       <Footer />
     </>
